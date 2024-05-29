@@ -2,11 +2,10 @@ body {
     margin: 0;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background-color: rgb(249, 249, 249);
 }
 h2 {
     text-align: center;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 table {
     width: 100%;
@@ -23,6 +22,19 @@ th {
     background-color: rgb(76, 175, 80);
     color: rgb(255, 255, 255);
 }
+td:nth-child(1) {
+    text-align: justify;
+}
+td:nth-child(5) {
+    text-align: justify;
+}
+td:nth-child(3) {
+    text-align: justify;
+}
+td:nth-child(2) {
+    text-align: justify; /* Alinea el contenido hacia arriba */
+    width: 130px;
+}
 tr:hover {
     background-color: rgb(233, 233, 233);
-}
+} 
