@@ -9,18 +9,18 @@ h2 {
 }
 /*estilziando_tabla*/
 table {
-    width: 120%;
-    margin: 20px auto;
+    width: 900px;
+    margin-left: 43px;
     border-collapse: collapse;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 /*estilziando_titulo*/
 td:nth-child(1) {
-    width: 370px;
+    width: 360px;
     text-align: justify;
 }
 td:nth-child(2) {
-    width: 260px;
+    width: 100px;
     text-align: center;
 }
 td:nth-child(3) {
@@ -35,6 +35,13 @@ td:nth-child(3) {
     background-color: rgb(236, 236, 236);
 }
 /*estilziando_celdas*/
+th {
+    background-color: rgb(76, 175, 80);
+    color: rgb(0, 0, 0);
+}
+.parrafo{
+    width: 450px;   
+}
 th, td {
     padding: 0px 0px 0px 12px;
     height: 50px;
@@ -43,8 +50,4 @@ th, td {
 }
 th, td:hover {
     background-color: rgb(197, 197, 197);
-}
-th {
-    background-color: rgb(76, 175, 80);
-    color: rgb(0, 0, 0);
 }
